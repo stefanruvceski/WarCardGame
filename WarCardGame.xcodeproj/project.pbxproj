@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45A33C1424ADF618006243F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A33C1324ADF618006243F9 /* AppDelegate.swift */; };
+		45A33C1624ADF618006243F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A33C1524ADF618006243F9 /* SceneDelegate.swift */; };
+		45A33C1824ADF618006243F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A33C1724ADF618006243F9 /* ContentView.swift */; };
+		45A33C1A24ADF622006243F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45A33C1924ADF622006243F9 /* Assets.xcassets */; };
+		45A33C1D24ADF622006243F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45A33C1C24ADF622006243F9 /* Preview Assets.xcassets */; };
+		45A33C2024ADF622006243F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A33C1E24ADF622006243F9 /* LaunchScreen.storyboard */; };
+		45A33C2B24ADF622006243F9 /* WarCardGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A33C2A24ADF622006243F9 /* WarCardGameTests.swift */; };
+		45A33C3624ADF622006243F9 /* WarCardGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A33C3524ADF622006243F9 /* WarCardGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45A33C2724ADF622006243F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45A33C0824ADF618006243F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45A33C0F24ADF618006243F9;
+			remoteInfo = WarCardGame;
+		};
+		45A33C3224ADF622006243F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45A33C0824ADF618006243F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45A33C0F24ADF618006243F9;
+			remoteInfo = WarCardGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45A33C1024ADF618006243F9 /* WarCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A33C1324ADF618006243F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45A33C1524ADF618006243F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		45A33C1724ADF618006243F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		45A33C1924ADF622006243F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45A33C1C24ADF622006243F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		45A33C1F24ADF622006243F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45A33C2124ADF622006243F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45A33C2624ADF622006243F9 /* WarCardGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarCardGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A33C2A24ADF622006243F9 /* WarCardGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarCardGameTests.swift; sourceTree = "<group>"; };
+		45A33C2C24ADF622006243F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45A33C3124ADF622006243F9 /* WarCardGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarCardGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A33C3524ADF622006243F9 /* WarCardGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarCardGameUITests.swift; sourceTree = "<group>"; };
+		45A33C3724ADF622006243F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45A33C0D24ADF618006243F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A33C2324ADF622006243F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A33C2E24ADF622006243F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45A33C0724ADF618006243F9 = {
+			isa = PBXGroup;
+			children = (
+				45A33C1224ADF618006243F9 /* WarCardGame */,
+				45A33C2924ADF622006243F9 /* WarCardGameTests */,
+				45A33C3424ADF622006243F9 /* WarCardGameUITests */,
+				45A33C1124ADF618006243F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45A33C1124ADF618006243F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45A33C1024ADF618006243F9 /* WarCardGame.app */,
+				45A33C2624ADF622006243F9 /* WarCardGameTests.xctest */,
+				45A33C3124ADF622006243F9 /* WarCardGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45A33C1224ADF618006243F9 /* WarCardGame */ = {
+			isa = PBXGroup;
+			children = (
+				45A33C1324ADF618006243F9 /* AppDelegate.swift */,
+				45A33C1524ADF618006243F9 /* SceneDelegate.swift */,
+				45A33C1724ADF618006243F9 /* ContentView.swift */,
+				45A33C1924ADF622006243F9 /* Assets.xcassets */,
+				45A33C1E24ADF622006243F9 /* LaunchScreen.storyboard */,
+				45A33C2124ADF622006243F9 /* Info.plist */,
+				45A33C1B24ADF622006243F9 /* Preview Content */,
+			);
+			path = WarCardGame;
+			sourceTree = "<group>";
+		};
+		45A33C1B24ADF622006243F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				45A33C1C24ADF622006243F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		45A33C2924ADF622006243F9 /* WarCardGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				45A33C2A24ADF622006243F9 /* WarCardGameTests.swift */,
+				45A33C2C24ADF622006243F9 /* Info.plist */,
+			);
+			path = WarCardGameTests;
+			sourceTree = "<group>";
+		};
+		45A33C3424ADF622006243F9 /* WarCardGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45A33C3524ADF622006243F9 /* WarCardGameUITests.swift */,
+				45A33C3724ADF622006243F9 /* Info.plist */,
+			);
+			path = WarCardGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45A33C0F24ADF618006243F9 /* WarCardGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A33C3A24ADF622006243F9 /* Build configuration list for PBXNativeTarget "WarCardGame" */;
+			buildPhases = (
+				45A33C0C24ADF618006243F9 /* Sources */,
+				45A33C0D24ADF618006243F9 /* Frameworks */,
+				45A33C0E24ADF618006243F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarCardGame;
+			productName = WarCardGame;
+			productReference = 45A33C1024ADF618006243F9 /* WarCardGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45A33C2524ADF622006243F9 /* WarCardGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A33C3D24ADF622006243F9 /* Build configuration list for PBXNativeTarget "WarCardGameTests" */;
+			buildPhases = (
+				45A33C2224ADF622006243F9 /* Sources */,
+				45A33C2324ADF622006243F9 /* Frameworks */,
+				45A33C2424ADF622006243F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45A33C2824ADF622006243F9 /* PBXTargetDependency */,
+			);
+			name = WarCardGameTests;
+			productName = WarCardGameTests;
+			productReference = 45A33C2624ADF622006243F9 /* WarCardGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45A33C3024ADF622006243F9 /* WarCardGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A33C4024ADF622006243F9 /* Build configuration list for PBXNativeTarget "WarCardGameUITests" */;
+			buildPhases = (
+				45A33C2D24ADF622006243F9 /* Sources */,
+				45A33C2E24ADF622006243F9 /* Frameworks */,
+				45A33C2F24ADF622006243F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45A33C3324ADF622006243F9 /* PBXTargetDependency */,
+			);
+			name = WarCardGameUITests;
+			productName = WarCardGameUITests;
+			productReference = 45A33C3124ADF622006243F9 /* WarCardGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45A33C0824ADF618006243F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "stefan ruvceski";
+				TargetAttributes = {
+					45A33C0F24ADF618006243F9 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					45A33C2524ADF622006243F9 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 45A33C0F24ADF618006243F9;
+					};
+					45A33C3024ADF622006243F9 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 45A33C0F24ADF618006243F9;
+					};
+				};
+			};
+			buildConfigurationList = 45A33C0B24ADF618006243F9 /* Build configuration list for PBXProject "WarCardGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45A33C0724ADF618006243F9;
+			productRefGroup = 45A33C1124ADF618006243F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45A33C0F24ADF618006243F9 /* WarCardGame */,
+				45A33C2524ADF622006243F9 /* WarCardGameTests */,
+				45A33C3024ADF622006243F9 /* WarCardGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45A33C0E24ADF618006243F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A33C2024ADF622006243F9 /* LaunchScreen.storyboard in Resources */,
+				45A33C1D24ADF622006243F9 /* Preview Assets.xcassets in Resources */,
+				45A33C1A24ADF622006243F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A33C2424ADF622006243F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A33C2F24ADF622006243F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45A33C0C24ADF618006243F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A33C1424ADF618006243F9 /* AppDelegate.swift in Sources */,
+				45A33C1624ADF618006243F9 /* SceneDelegate.swift in Sources */,
+				45A33C1824ADF618006243F9 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A33C2224ADF622006243F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A33C2B24ADF622006243F9 /* WarCardGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A33C2D24ADF622006243F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A33C3624ADF622006243F9 /* WarCardGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45A33C2824ADF622006243F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45A33C0F24ADF618006243F9 /* WarCardGame */;
+			targetProxy = 45A33C2724ADF622006243F9 /* PBXContainerItemProxy */;
+		};
+		45A33C3324ADF622006243F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45A33C0F24ADF618006243F9 /* WarCardGame */;
+			targetProxy = 45A33C3224ADF622006243F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45A33C1E24ADF622006243F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45A33C1F24ADF622006243F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45A33C3824ADF622006243F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45A33C3924ADF622006243F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45A33C3B24ADF622006243F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WarCardGame/Preview Content\"";
+				DEVELOPMENT_TEAM = 2WNRZZ4J36;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WarCardGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefanruvceski.WarCardGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45A33C3C24ADF622006243F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WarCardGame/Preview Content\"";
+				DEVELOPMENT_TEAM = 2WNRZZ4J36;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WarCardGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefanruvceski.WarCardGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45A33C3E24ADF622006243F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WNRZZ4J36;
+				INFOPLIST_FILE = WarCardGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefanruvceski.WarCardGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarCardGame.app/WarCardGame";
+			};
+			name = Debug;
+		};
+		45A33C3F24ADF622006243F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WNRZZ4J36;
+				INFOPLIST_FILE = WarCardGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefanruvceski.WarCardGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarCardGame.app/WarCardGame";
+			};
+			name = Release;
+		};
+		45A33C4124ADF622006243F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WNRZZ4J36;
+				INFOPLIST_FILE = WarCardGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefanruvceski.WarCardGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WarCardGame;
+			};
+			name = Debug;
+		};
+		45A33C4224ADF622006243F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WNRZZ4J36;
+				INFOPLIST_FILE = WarCardGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefanruvceski.WarCardGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WarCardGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45A33C0B24ADF618006243F9 /* Build configuration list for PBXProject "WarCardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A33C3824ADF622006243F9 /* Debug */,
+				45A33C3924ADF622006243F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A33C3A24ADF622006243F9 /* Build configuration list for PBXNativeTarget "WarCardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A33C3B24ADF622006243F9 /* Debug */,
+				45A33C3C24ADF622006243F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A33C3D24ADF622006243F9 /* Build configuration list for PBXNativeTarget "WarCardGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A33C3E24ADF622006243F9 /* Debug */,
+				45A33C3F24ADF622006243F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A33C4024ADF622006243F9 /* Build configuration list for PBXNativeTarget "WarCardGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A33C4124ADF622006243F9 /* Debug */,
+				45A33C4224ADF622006243F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45A33C0824ADF618006243F9 /* Project object */;
+}
